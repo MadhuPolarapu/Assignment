@@ -1,0 +1,40 @@
+sno=int(input("Enter the student no:"))
+sname=input("Enter the student name:")
+sgrp=input("Enter the group of the Student:")
+s1=int(input("Enter Maths Marks:"))
+s2=int(input("Enter Physics Marks:"))
+s3=int(input("Enter Chemistry Marks:"))
+if s1>=35 and s2>=35 and s3>=35:
+     print("PASS")
+else:
+      print("FAIL")
+tot=s1+s2+s3
+avg=(tot)/3
+per=(tot/300)*100
+print("Total=",tot)
+print("Average=",avg)
+print("Percentage=",per)
+
+Output 1:-
+Enter the student no:44
+Enter the student name:MADHU
+Enter the group of the Student:BCA
+Enter Maths Marks:85
+Enter Physics Marks:95
+Enter Chemistry Marks:80
+PASS
+Total= 260
+Average= 86.66666666666667
+Percentage= 86.66666666666667
+
+Output 2:-
+Enter the student no:56
+Enter the student name:Rambabu
+Enter the group of the Student:BCA
+Enter Maths Marks:32
+Enter Physics Marks:45
+Enter Chemistry Marks:67
+FAIL
+Total= 144
+Average= 48.0
+Percentage= 48.0
