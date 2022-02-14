@@ -1,0 +1,11 @@
+n=int(input("Enter The Number:"))
+sum = 0
+while n != 0:
+        sum = sum + (n % 10)
+        n = n//10
+print("Sum of Digits in the given Number:",sum)
+
+Output:-
+
+Enter The Number:456
+Sum of Digits in the given Number: 15
