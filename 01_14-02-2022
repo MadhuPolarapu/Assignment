@@ -1,0 +1,12 @@
+n=int(input("Enter The Number:"))
+count = 0
+
+while n != 0:
+    n //= 10
+    count += 1
+print("Number of digits: " + str(count))
+
+Output:-
+
+Enter The Number:4747
+Number of digits: 4
