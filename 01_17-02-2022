@@ -1,0 +1,27 @@
+n=int(input("Enter the N value:"))
+even_sum=0
+odd_sum=0
+for i in range (0,n+1):
+    if i%2==0:
+        even_sum=even_sum+i
+        print("Sum of Even numbers upto",n,"=",even_sum)
+for i in range (0,n+1):
+    if i%2!=0:
+        odd_sum=odd_sum+i
+        print("Sum of Odd numbers upto",n,"=",odd_sum)
+
+
+Output:-
+
+Enter the N value:10
+Sum of Even numbers upto 10 = 0
+Sum of Even numbers upto 10 = 2
+Sum of Even numbers upto 10 = 6
+Sum of Even numbers upto 10 = 12
+Sum of Even numbers upto 10 = 20
+Sum of Even numbers upto 10 = 30
+Sum of Odd numbers upto 10 = 1
+Sum of Odd numbers upto 10 = 4
+Sum of Odd numbers upto 10 = 9
+Sum of Odd numbers upto 10 = 16
+Sum of Odd numbers upto 10 = 25
